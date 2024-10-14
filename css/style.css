@@ -429,3 +429,75 @@ span{
 
 
 /* education section ends */
+
+/* services section starts */
+
+.services{
+    background: var(--bg-color);
+    color: #000;
+
+}
+
+.services h2{
+    margin-bottom: 5rem;
+    color: #eee;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.service-box{
+    background-color: var(--main-color);
+    height: 300px;
+    border-radius: 3rem;
+    border: 5px solid transparent;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.service-box i{
+    font-size: 2.5rem;
+    color: #000;
+    margin: 10px 0 0 20px;
+}
+
+.service-box:hover{
+    background: #eee;
+    color: #000;
+    border: 5px solid var(--main-color);
+    transform: scale(1.03);
+}
+
+.service-box .service-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-height: 200px;
+    justify-content: left;
+    align-items: baseline;
+    padding: 5rem 5rem;
+}
+
+.service-info h4{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.service-info small{
+    font-weight: 600;
+}
+
+.service-info p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    max-height: 100px;
+    line-height: 1.7;
+    margin: auto;
+}
+
+/* services section ends */

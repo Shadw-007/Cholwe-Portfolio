@@ -27,11 +27,11 @@
 
         <!-- navigation bar -->
         <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Education</a>
-            <a href="#">Services</a>
-            <a href="#">Certifications</a>
-            <a href="#">Contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <!-- header section ends -->

@@ -37,7 +37,7 @@
     <!-- header section ends -->
 
 
-    <!-- home section begins -->
+    <!-- home section starts -->
 
     <section class="home" id="home">
         <div class="home-content">
@@ -58,14 +58,66 @@
                 <a href="cv/Cholwe_Muleya_CV.pdf" class="btn" download>Download CV</a>
             </div>
         </div>
-            <div class="home-img">
-                <img src="images/cholwe1.png" alt="">
-            </div>
+        <div class="home-img">
+            <img src="images/cholwe1.png" alt="">
+        </div>
     </section>
 
     <!-- home section ends -->
 
+    <!-- education sections starts -->
 
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <a href="https://northrise.edu.zm" target="_blank">
+                        <h2><small>(02/2020 - 11/2023)</small> Northrise University <i class='bx bx-link-external'></i></h2>
+                    </a>
+                    <p>Pursued a Bachelor of Information Technology in Web and Software Development (BIT(WSD)). This institution
+                        gave me the opportunity to hone and sharpen my skills in web technologies and push myself to put the skills
+                        I learned into practice.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <a href="https://www.linkedin.com/company/biyashara-innovation-limited/posts/?feedView=all" target="_blank">
+                        <h2><small>(02/2024 - Present)</small> Biyashara Innovations Limited<i class='bx bx-link-external'></i></h2>
+                    </a>
+                    <p>A company specialised in in crafting tailored solutions that precisely align with the client's unique needs and 
+                        objectives. I was able to put the skills I have learned in real life scenarios and projects, further sharpening
+                        my problem-solving and personal software development skills.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Academies</h3>
+                    <a href="https://nuyew.academy" target="_blank">
+                        <h2><small>(07/2024 - Present)</small> NuYew Tech Academy <i class='bx bx-link-external'></i></h2>
+                    </a>
+                    <p>A company that supports you to achieve your dream career in tech. Through modules, labs, exams and 
+                        self-paced learning, I can work towards my childhood passion in pursuing a career in Cybersecurity, pushing
+                        myself to unlock my full potenital.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section ends -->
 
 
     <!-- js file link -->

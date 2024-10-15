@@ -55,7 +55,7 @@
 
             <div class="btn-group">
                 <a href="#contact" class="btn">Hire</a>
-                <a href="cv/Cholwe_Muleya_CV.pdf" class="btn" download>Download CV</a>
+                <a href="#footer" class="btn">Download CV(s)</a>
             </div>
         </div>
         <div class="home-img">
@@ -171,13 +171,11 @@
                 <i class='bx bx-laptop'></i>
                 <div class="service-info">
                     <h4>Software Solutions</h4>
-                    <p>Bringing a blend of technical expertise and creative
-                        problem-solving to the table. Proficient in a diverse range
-                        of programming languages and frameworks, I specialize
-                        in crafting robust and scalable web solutions.
-                        With a keen eye for detail and a passion for user-centric design,
-                        I strive to deliver not just functional websites, but exceptional
-                        digital experiences.</p>
+                    <p>Indentifying, diagnosing, and resolving software-related issues that you bring to
+                        attention. I ensure to pay close attention to detail and resolve issues through
+                        installing, updating, and maintaining your system's software to ensure that your
+                        system runs as efficiently as it possibly can.
+                    </p>
                 </div>
             </div>
 
@@ -185,13 +183,12 @@
                 <i class='bx bx-desktop'></i>
                 <div class="service-info">
                     <h4>Hardware Solutions</h4>
-                    <p>Bringing a blend of technical expertise and creative
-                        problem-solving to the table. Proficient in a diverse range
-                        of programming languages and frameworks, I specialize
-                        in crafting robust and scalable web solutions.
-                        With a keen eye for detail and a passion for user-centric design,
-                        I strive to deliver not just functional websites, but exceptional
-                        digital experiences.</p>
+                    <p>As an IT support professional, I am able to diagnose and resolve variouse issure concerning
+                        desktops, laptops, servers, printers, mobile devices and peripherals. This includes
+                        troubleshooting hardware failures, replacing faulty components, upgrading systems, and
+                        ensuring proper device connectivity all while ensuring everything is done in ample time
+                        to minimise any downtime.
+                    </p>
                 </div>
             </div>
 
@@ -199,13 +196,10 @@
                 <i class='bx bxl-windows'></i>
                 <div class="service-info">
                     <h4>OS Solutions</h4>
-                    <p>Bringing a blend of technical expertise and creative
-                        problem-solving to the table. Proficient in a diverse range
-                        of programming languages and frameworks, I specialize
-                        in crafting robust and scalable web solutions.
-                        With a keen eye for detail and a passion for user-centric design,
-                        I strive to deliver not just functional websites, but exceptional
-                        digital experiences.</p>
+                    <p>Combining experience with technical knowledge and skills, I am able to identify, troubleshoot
+                        and resolve various issues related to various operating systems (Windows, Mac, Linux, iOS, Android)
+                        through managing updates to fix bugs, diagnosing system crashes, improving security, and enhancing performance.
+                    </p>
                 </div>
             </div>
         </div>
@@ -264,6 +258,67 @@
     </section>
 
     <!-- certification section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name..." required>
+                    <input type="email" placeholder="Email..." required>
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number...">
+                    <input type="text" placeholder="Subject..." required>
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here..." required></textarea>
+                <input type="submit" value="Send message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+
+    <footer class="footer" id="footer">
+        <div class="social">
+            <a href="https://twitter.com/cholwe_muleya" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/cholwe-muleya-198a861b2/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://www.instagram.com/charlie_m_kirk/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/Shadw-007" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="cv/CHOLWE MULEYA (WEB DEV).pdf" download><i class='bx bxs-file-doc'></i></a>
+            <a href="cv/CHOLWE MULEYA (Entry-Level IT Support and Cybersecurity).pdf" download><i class='bx bxs-file-doc'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#">About Me</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+            <li>
+                <a href="#certifications">Certifications</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            &copy Cholwe Muleya 2024 | All Rights Reserved
+        </p>
+    </footer>
+
+    <!-- footer section ends -->
 
 
     <!-- js file link -->

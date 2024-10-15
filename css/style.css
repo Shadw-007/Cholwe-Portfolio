@@ -430,6 +430,8 @@ span{
 
 ::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
+    border: 1px solid #eee;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track{
@@ -616,3 +618,138 @@ span{
 }
 
 /* certifications section ends */
+
+/* contact section starts */
+
+.contact{
+    background-color: var(--bg-color);
+}
+
+.contact h2{
+    margin-bottom: 3rem;
+    color: #000;
+    text-shadow: 
+    -1px -1px 0 var(--main-color),   /* Top-left shadow */
+    1px -1px 0 var(--main-color),    /* Top-right shadow */
+    -1px 1px 0 var(--main-color),    /* Bottom-left shadow */
+    1px 1px 0 var(--main-color);     /* Bottom-right shadow */
+}
+
+.contact form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.contact form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input, 
+.contact form textarea{
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: var(--text-colorr);
+    background: var(--bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    margin: 1.5rem 0;
+    resize: none;
+}
+
+.contact form .btn{
+     margin-top: 2rem;
+}
+
+/* Remove spinners in Chrome, Safari, Edge, and Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+/* contact section ends */
+
+
+/* footer section starts */
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--second-bg-color);
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: var(--main-color);
+}
+
+.footer .social a{
+    font-size: 25px;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 35%;
+    margin: 0 10px;
+    transition: .3s ease-in-out;
+}
+
+.footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    background-color: var(--main-color);
+    color: #000;
+    box-shadow: 0 0 20px var(--main-color);
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: #eee;
+    border-bottom: 3px solid transparent;
+    transition: .3s ease-in-out;
+}
+
+.footer ul li a:hover{
+    border-bottom: 3px solid var(--main-color);
+    border-radius: 5px;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* footer section ends */
+
+
+/* media queries start */
+
+
+
+/* media queries end */

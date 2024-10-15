@@ -213,6 +213,58 @@
 
     <!-- services section ends -->
 
+    <!-- certification section starts -->
+
+    <section class="certifications" id="certifications">
+        <h2 class="heading">Certifications</h2>
+
+        <div class="certifications-container">
+            <div class="certifications-box">
+                <img src="images/Web Dev.png" alt="Udemy Web Development Certificate">
+
+                <div class="certifications-layer">
+                    <h4>Web Development</h4>
+                    <p>This certification highlights my knowledge in being able to develop and deploy
+                        a fully functional website that is both aesthetically pleasing, interactive and
+                        user friendly. I am able to build a wide range of websites, following details to
+                        utmost precision according to the needs of the client(s).
+                    </p>
+                    <a href="https://www.udemy.com/certificate/UC-61101c14-bcdb-457c-b8fe-a6c8cb7d1924/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="certifications-box">
+                <img src="images/ITF+ Logo Certified.jpg" alt="CompTIA ITF+ Certificate">
+
+                <div class="certifications-layer">
+                    <h4>CompTIA ITF+</h4>
+                    <p>This certification highlights my knowledge and skills required to identify and explain the
+                        basics of computing, IT infrastructure, application and software, software
+                        development, database fundamentals, and security. As well as being able to
+                        demonstrate the ability to install software, establish basic network connectivity,
+                        and identify and prevent basic security risks.</p>
+                    <a href="https://www.credly.com/earner/earned/badge/09b2bdb5-3377-4d18-9cc8-572ea2fd1e7d" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="certifications-box">
+                <img src="images/CEH.png" alt="Udemy Ethical Hacking Certificate">
+
+                <div class="certifications-layer">
+                    <h4>Ethical Hacking</h4>
+                    <p>This certificate highlights my knowledge in utilising technical expertise to identify
+                        vulnerabilities in computer systems, networks, and applications, simulating attacks to assess
+                        their security posture. By evaluating potential risks and recommending mitigation strategies,
+                        I help organisations enhance their overall security. </p>
+                    <a href="https://www.udemy.com/certificate/UC-403aaec4-8d80-4889-9639-9323022342b8/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- certification section ends -->
+
 
     <!-- js file link -->
 

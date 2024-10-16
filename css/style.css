@@ -140,7 +140,7 @@ span{
     position: relative;
     top: 2rem;
     width: 30vw;
-    border-radius: 35%;
+    border-radius: 20%;
     box-shadow: 0 0 20px var(--main-color);
     cursor: pointer;
     transition: .4s ease-in-out;
@@ -877,8 +877,137 @@ input[type=number]::-webkit-inner-spin-button {
     }
 }
 
-@media(max-width: 768px){
+@media(max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
 
+    .header {
+        padding: 2rem 5%;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+    }
+
+    .navbar a {
+        font-size: 1.6rem;
+        margin-left: 2rem;
+    }
+
+    .home {
+        gap: 10rem;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
+    .home-content p {
+        font-size: 1.4rem;
+    }
+
+    .home-img img {
+        width: 65vw;
+    }
+
+    .btn {
+        padding: 0.8rem 2rem;
+        font-size: 1.4rem;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .certifications-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact form {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
+
+@media(max-width: 480px) {
+    html {
+        font-size: 45%;
+    }
+
+    .header {
+        padding: 1.5rem 3%;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    #menu-icon {
+        font-size: 3rem;
+    }
+
+    .navbar a {
+        font-size: 1.4rem;
+        margin-left: 1.5rem;
+    }
+
+    .home {
+        gap: 5rem;
+        margin: 3rem 2rem;
+    }
+
+    .home-content h1 {
+        font-size: 3.5rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .home-content p {
+        font-size: 1.2rem;
+    }
+
+    .home-img img {
+        width: 90vw;
+        border-radius: 20%;
+    }
+
+    .btn {
+        padding: 0.6rem 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .services-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .certifications-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact form {
+        gap: 1.5rem;
+    }
+
+    .social-icons a {
+        width: 3.5rem;
+        height: 3.5rem;
+        font-size: 2rem;
+    }
+
+    .footer .social a {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+}
+
 
 /* media queries end */

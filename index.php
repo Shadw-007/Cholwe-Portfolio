@@ -321,6 +321,9 @@
     <!-- footer section ends -->
 
 
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- js file link -->
 
     <script src="js/script.js"></script>

@@ -81,6 +81,7 @@ body{
     font-size: 3.6rem;
     color: var(--main-color);
     display: none;
+    cursor: pointer;
 }
 
 /* header section ends */

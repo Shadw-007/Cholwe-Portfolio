@@ -19,8 +19,9 @@
     <section class="home">
         <div class="home-content">
             <h1>Your message has been <span>Sent!</span></h1>
+            <br><br>
             <p>Thank you for your message, I will respond to you as soon as possible!</p>
-
+            <br><br>
 
             <div class="btn-group">
                 <a href="index.php" class="btn">Back to Home</a>

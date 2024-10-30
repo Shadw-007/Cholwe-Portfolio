@@ -92,7 +92,7 @@
                 <div class="timeline-content">
                     <h3>Internship</h3>
                     <a href="https://www.linkedin.com/company/biyashara-innovation-limited/posts/?feedView=all" target="_blank">
-                        <h2><small>(02/2024 - Present)</small> Biyashara Innovations Limited<i class='bx bx-link-external'></i></h2>
+                        <h2><small>(02/2024 - Present)</small> Biyashara Innovations Limited <i class='bx bx-link-external'></i></h2>
                     </a>
                     <p>A company specialised in in crafting tailored solutions that precisely align with the client's unique needs and
                         objectives. I was able to put the skills I have learned in real life scenarios and projects, further sharpening
@@ -267,10 +267,10 @@
         <form action="email.php" method="POST">
             <div class="input-group">
                 <div class="input-box">
+
                     <input type="text" placeholder="Full Name..." name="fullname" required>
-                    <span><?php echo $nameerr; ?></span>
+
                     <input type="email" placeholder="Email..." name="email" required>
-                    <span><?php echo $emailerr; ?></span>
 
                 </div>
                 <div class="input-box">

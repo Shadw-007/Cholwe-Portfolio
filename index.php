@@ -1,52 +1,3 @@
-<?php
-// Errors to be displayed if users enter invalid name or address
-$nameerr = "";
-$emailerr = "";
-$numbererr = "";
-// $fullname = "";
-
-// scanning the website if there is any XSS
-if ($_SERVER['REQUEST_METHOD'] == "POST") {
-
-    // checking if input fields are empty
-    if (empty($_POST['fullname'])) {
-        $nameerr = "You cannot leave this field blank, please enter an appropriate name";
-    } else {
-        // checking if the name is valid
-        $fullname = input_data($_POST['fullname']);
-        // ensuring the name is only letters
-        if (!preg_match("/^[a-zA-Z ]*$/", $fullname)) {
-            $nameerr = "Invalid name format";
-        }
-    }
-
-    // checking if input fields are empty
-    if (empty($_POST['email'])) {
-        $emailerr = "You cannot leave this field blank, please enter an appropriate email";
-    } else {
-        // checking if the email is valid
-        $email = input_data($_POST['email']);
-        // ensuring the name is only letters
-        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $emailerr = "Invalid email format";
-        }
-
-    }
-}
-function input_data($data)
-{
-    // removing any backspace
-    $data = trim($data);
-    // removing any backslashes as a name
-    $data = stripslashes($data);
-    // removing any special character
-    $data = htmlspecialchars($data);
-    return $data;
-}
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -313,21 +264,22 @@ function input_data($data)
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+        <form action="email.php" method="POST">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name..." name="fullname">
+                    <input type="text" placeholder="Full Name..." name="fullname" required>
                     <span><?php echo $nameerr; ?></span>
-                    <input type="email" placeholder="Email..." name="email">
+                    <input type="email" placeholder="Email..." name="email" required>
                     <span><?php echo $emailerr; ?></span>
+
                 </div>
                 <div class="input-box">
                     <!-- <input type="number" placeholder="Phone Number..." name="number"> -->
-                    <input type="text" placeholder="Subject..." name="subject">
+                    <input type="text" placeholder="Subject..." name="subject" required>
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here..." name="message"></textarea>
+                <textarea id="" cols="30" rows="10" placeholder="Type your message here..." name="message" required></textarea>
                 <input type="submit" value="Send message" class="btn" name="btn">
             </div>
         </form>

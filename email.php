@@ -4,8 +4,6 @@ $email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-
-
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
@@ -27,12 +25,9 @@ try {
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom($email, $name);
-    $mail->addAddress('cholwemuleya1@gmail.com', 'Cholwe');     //Add a recipient
-    
-    // $mail->addReplyTo('info@example.com', 'Information');
-    // $mail->addCC('cc@example.com');
-    // $mail->addBCC('bcc@example.com');
+    $mail->setFrom($email, $fullname);                         // Use the user's email as the sender
+    $mail->addAddress('cholwemuleya1@gmail.com', 'Cholwe');   //Add a recipient
+    $mail->addReplyTo($email, $fullname);                      // Optional: Add a reply-to address
 
     //Attachments
     // $mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
@@ -49,4 +44,3 @@ try {
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
-

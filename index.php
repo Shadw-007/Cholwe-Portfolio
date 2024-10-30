@@ -1,3 +1,52 @@
+<?php
+// Errors to be displayed if users enter invalid name or address
+$nameerr = "";
+$emailerr = "";
+$numbererr = "";
+// $fullname = "";
+
+// scanning the website if there is any XSS
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
+
+    // checking if input fields are empty
+    if (empty($_POST['fullname'])) {
+        $nameerr = "You cannot leave this field blank, please enter an appropriate name";
+    } else {
+        // checking if the name is valid
+        $fullname = input_data($_POST['fullname']);
+        // ensuring the name is only letters
+        if (!preg_match("/^[a-zA-Z ]*$/", $fullname)) {
+            $nameerr = "Invalid name format";
+        }
+    }
+
+    // checking if input fields are empty
+    if (empty($_POST['email'])) {
+        $emailerr = "You cannot leave this field blank, please enter an appropriate email";
+    } else {
+        // checking if the email is valid
+        $email = input_data($_POST['email']);
+        // ensuring the name is only letters
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $emailerr = "Invalid email format";
+        }
+
+    }
+}
+function input_data($data)
+{
+    // removing any backspace
+    $data = trim($data);
+    // removing any backslashes as a name
+    $data = stripslashes($data);
+    // removing any special character
+    $data = htmlspecialchars($data);
+    return $data;
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -218,11 +267,11 @@
 
                 <div class="certifications-layer">
                     <h4>Web Development</h4>
-                    <p>This certification highlights my knowledge in being able to develop and deploy
+                    <!-- <p>This certification highlights my knowledge in being able to develop and deploy
                         a fully functional website that is both aesthetically pleasing, interactive and
                         user friendly. I am able to build a wide range of websites, following details to
                         utmost precision according to the needs of the client(s).
-                    </p>
+                    </p> -->
                     <a href="https://www.udemy.com/certificate/UC-61101c14-bcdb-457c-b8fe-a6c8cb7d1924/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -232,11 +281,11 @@
 
                 <div class="certifications-layer">
                     <h4>CompTIA ITF+</h4>
-                    <p>This certification highlights my knowledge and skills required to identify and explain the
+                    <!-- <p>This certification highlights my knowledge and skills required to identify and explain the
                         basics of computing, IT infrastructure, application and software, software
                         development, database fundamentals, and security. As well as being able to
                         demonstrate the ability to install software, establish basic network connectivity,
-                        and identify and prevent basic security risks.</p>
+                        and identify and prevent basic security risks.</p> -->
                     <a href="https://www.credly.com/earner/earned/badge/09b2bdb5-3377-4d18-9cc8-572ea2fd1e7d" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -246,10 +295,10 @@
 
                 <div class="certifications-layer">
                     <h4>Ethical Hacking</h4>
-                    <p>This certificate highlights my knowledge in utilising technical expertise to identify
+                    <!-- <p>This certificate highlights my knowledge in utilising technical expertise to identify
                         vulnerabilities in computer systems, networks, and applications, simulating attacks to assess
                         their security posture. By evaluating potential risks and recommending mitigation strategies,
-                        I help organisations enhance their overall security. </p>
+                        I help organisations enhance their overall security. </p> -->
                     <a href="https://www.udemy.com/certificate/UC-403aaec4-8d80-4889-9639-9323022342b8/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -264,20 +313,22 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="">
+        <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
             <div class="input-group">
                 <div class="input-box">
-                    <input type="text" placeholder="Full Name..." required>
-                    <input type="email" placeholder="Email..." required>
+                    <input type="text" placeholder="Full Name..." name="fullname">
+                    <span><?php echo $nameerr; ?></span>
+                    <input type="email" placeholder="Email..." name="email">
+                    <span><?php echo $emailerr; ?></span>
                 </div>
                 <div class="input-box">
-                    <input type="number" placeholder="Phone Number...">
-                    <input type="text" placeholder="Subject..." required>
+                    <!-- <input type="number" placeholder="Phone Number..." name="number"> -->
+                    <input type="text" placeholder="Subject..." name="subject">
                 </div>
             </div>
             <div class="input-group-2">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here..." required></textarea>
-                <input type="submit" value="Send message" class="btn">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here..." name="message"></textarea>
+                <input type="submit" value="Send message" class="btn" name="btn">
             </div>
         </form>
     </section>

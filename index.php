@@ -43,8 +43,7 @@
         <div class="home-content">
             <h1>Hi 👋🏾, I'm <span>Cholwe</span></h1>
             <h3 class="text-animation">I'm <span></span></h3>
-            <p>Empowering the future with keystrokes, shaping tomorrow through web development and ethical hacking –
-                where innovation meets integrity in the digital realm.</p>
+            <p>Empowering the future by shaping tomorrow through Web Development, Tech Support, and Cybersecurity.</p>
 
             <div class="social-icons">
                 <a href="https://twitter.com/cholwe_muleya" target="_blank"><i class='bx bxl-twitter'></i></a>
@@ -92,7 +91,7 @@
                 <div class="timeline-content">
                     <h3>Internship</h3>
                     <a href="https://www.linkedin.com/company/biyashara-innovation-limited/posts/?feedView=all" target="_blank">
-                        <h2><small>(02/2024 - Present)</small> Biyashara Innovations Limited <i class='bx bx-link-external'></i></h2>
+                        <h2><small>(02/2024 - 11/2024)</small> Biyashara Innovations Limited <i class='bx bx-link-external'></i></h2>
                     </a>
                     <p>A company specialised in in crafting tailored solutions that precisely align with the client's unique needs and
                         objectives. I was able to put the skills I have learned in real life scenarios and projects, further sharpening
@@ -111,6 +110,21 @@
                     <p>A company that supports you to achieve your dream career in tech. Through modules, labs, exams and
                         self-paced learning, I can work towards my childhood passion in pursuing a career in Cybersecurity, pushing
                         myself to unlock my full potenital.
+                    </p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Experience</h3>
+                    <a href="https://www.nationaltrust.org.uk/visit/suffolk/ickworth-estate" target="_blank">
+                        <h2><small>(11/2024 - 01/2025)</small> National Trust- Ickworth Estate <i class='bx bx-link-external'></i></h2>
+                    </a>
+                    <p> A neoclassical building set in parkland. The house was the residence of the Marquesses of Bristol until 1998;
+                        the house was given to the National Trust in 1956. I had the opportunity to work on the Commemorative Tree Project
+                        where I could work with various technologies and implement the skills I have developed over time.
                     </p>
                 </div>
             </div>
@@ -218,11 +232,6 @@
 
                 <div class="certifications-layer">
                     <h4>Web Development</h4>
-                    <!-- <p>This certification highlights my knowledge in being able to develop and deploy
-                        a fully functional website that is both aesthetically pleasing, interactive and
-                        user friendly. I am able to build a wide range of websites, following details to
-                        utmost precision according to the needs of the client(s).
-                    </p> -->
                     <a href="https://www.udemy.com/certificate/UC-61101c14-bcdb-457c-b8fe-a6c8cb7d1924/" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -232,11 +241,6 @@
 
                 <div class="certifications-layer">
                     <h4>CompTIA ITF+</h4>
-                    <!-- <p>This certification highlights my knowledge and skills required to identify and explain the
-                        basics of computing, IT infrastructure, application and software, software
-                        development, database fundamentals, and security. As well as being able to
-                        demonstrate the ability to install software, establish basic network connectivity,
-                        and identify and prevent basic security risks.</p> -->
                     <a href="https://www.credly.com/earner/earned/badge/09b2bdb5-3377-4d18-9cc8-572ea2fd1e7d" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
@@ -246,11 +250,34 @@
 
                 <div class="certifications-layer">
                     <h4>Ethical Hacking</h4>
-                    <!-- <p>This certificate highlights my knowledge in utilising technical expertise to identify
-                        vulnerabilities in computer systems, networks, and applications, simulating attacks to assess
-                        their security posture. By evaluating potential risks and recommending mitigation strategies,
-                        I help organisations enhance their overall security. </p> -->
                     <a href="https://www.udemy.com/certificate/UC-403aaec4-8d80-4889-9639-9323022342b8/" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="certifications-box">
+                <img src="images/Hackers Exposed.png" alt="Stackskills Cyber Security Certificate">
+
+                <div class="certifications-layer">
+                    <h4>Hackers Exposed</h4>
+                    <a href="https://stackskills.com/courses/137513/certificate" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="certifications-box">
+                <img src="images/Aplus Logo Certified CE.jpg" alt="CompTIA A+ Certificate">
+
+                <div class="certifications-layer">
+                    <h4>CompTIA A+</h4>
+                    <a href="https://www.credly.com/earner/earned/badge/79293dcd-6936-4fb7-9b50-2bca88d67801" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="certifications-box">
+                <img src="images/Network Security.png" alt="Stackskills Cyber Security Certificate">
+
+                <div class="certifications-layer">
+                    <h4>Network Security</h4>
+                    <a href="https://stackskills.com/courses/137514/certificate" target="_blank"><i class='bx bx-link-external'></i></a>
                 </div>
             </div>
 

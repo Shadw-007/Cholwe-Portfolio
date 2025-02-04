@@ -28,7 +28,7 @@
         <!-- navigation bar -->
         <nav class="navbar">
             <a href="#home" class="active">Home</a>
-            <a href="#education">Education</a>
+            <a href="#education">Timeline</a>
             <a href="#services">Services</a>
             <a href="#certifications">Certifications</a>
             <a href="#contact">Contact</a>
@@ -64,34 +64,19 @@
 
     <!-- home section ends -->
 
-    <!-- education sections starts -->
+    <!-- timeline sections starts -->
 
     <section class="education" id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading">Timeline</h2>
         <div class="timeline-items">
 
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
-                <div class="timeline-date">2020</div>
+                <div class="timeline-date">2025</div>
                 <div class="timeline-content">
-                    <h3>University</h3>
-                    <a href="https://northrise.edu.zm" target="_blank">
-                        <h2><small>(02/2020 - 11/2023)</small> Northrise University <i class='bx bx-link-external'></i></h2>
-                    </a>
-                    <p>Pursued a Bachelor of Information Technology in Web and Software Development (BIT(WSD)). This institution
-                        gave me the opportunity to hone and sharpen my skills in web technologies and push myself to put the skills
-                        I learned into practice.
-                    </p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2024</div>
-                <div class="timeline-content">
-                    <h3>Internship</h3>
-                    <a href="https://www.linkedin.com/company/biyashara-innovation-limited/posts/?feedView=all" target="_blank">
-                        <h2><small>(02/2024 - 11/2024)</small> Biyashara Innovations Limited <i class='bx bx-link-external'></i></h2>
+                    <h3>Experience</h3>
+                    <a href="https://amanocs.org" target="_blank">
+                        <h2><small>(02/2025 - Present)</small> Amano Christian School <i class='bx bx-link-external'></i></h2>
                     </a>
                     <p>A company specialised in in crafting tailored solutions that precisely align with the client's unique needs and
                         objectives. I was able to put the skills I have learned in real life scenarios and projects, further sharpening
@@ -128,10 +113,40 @@
                     </p>
                 </div>
             </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Internship</h3>
+                    <a href="https://www.linkedin.com/company/biyashara-innovation-limited/posts/?feedView=all" target="_blank">
+                        <h2><small>(02/2024 - 11/2024)</small> Biyashara Innovations Limited <i class='bx bx-link-external'></i></h2>
+                    </a>
+                    <p>A company specialised in in crafting tailored solutions that precisely align with the client's unique needs and
+                        objectives. I was able to put the skills I have learned in real life scenarios and projects, further sharpening
+                        my problem-solving and personal software development skills.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2020</div>
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <a href="https://northrise.edu.zm" target="_blank">
+                        <h2><small>(02/2020 - 11/2023)</small> Northrise University <i class='bx bx-link-external'></i></h2>
+                    </a>
+                    <p>Pursued a Bachelor of Information Technology in Web and Software Development (BIT(WSD)). This institution
+                        gave me the opportunity to hone and sharpen my skills in web technologies and push myself to put the skills
+                        I learned into practice.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </section>
 
-    <!-- education section ends -->
+    <!-- timeline section ends -->
 
     <!-- services section starts -->
 

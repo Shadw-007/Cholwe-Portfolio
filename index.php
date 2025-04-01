@@ -78,9 +78,9 @@
                     <a href="https://amanocs.org" target="_blank">
                         <h2><small>(02/2025 - Present)</small> Amano Christian School <i class='bx bx-link-external'></i></h2>
                     </a>
-                    <p>A company specialised in in crafting tailored solutions that precisely align with the client's unique needs and
-                        objectives. I was able to put the skills I have learned in real life scenarios and projects, further sharpening
-                        my problem-solving and personal software development skills.</p>
+                    <p>A private school offering top quality education from a Biblical worldview. I successfully contributed to projects by
+                        effectively leveraging a blend of legacy and cutting-edge technologies, consistently maintaining high standards of quality.
+                        This experience significantly enhanced my expertise and technical acumen.</p>
                 </div>
             </div>
 
@@ -92,9 +92,10 @@
                     <a href="https://nuyew.academy" target="_blank">
                         <h2><small>(07/2024 - Present)</small> NuYew Tech Academy <i class='bx bx-link-external'></i></h2>
                     </a>
-                    <p>A company that supports you to achieve your dream career in tech. Through modules, labs, exams and
-                        self-paced learning, I can work towards my childhood passion in pursuing a career in Cybersecurity, pushing
-                        myself to unlock my full potenital.
+                    <p>This company provides comprehensive support in achieving my desired career in the technology sector. Through a
+                        structured learning path encompassing modules, hands-on labs, rigorous exams, and opportunities for self-paced
+                        learning, I can actively pursue my lifelong passion for cybersecurity. This program will empower me to unlock my
+                        full potential and embark on a successful career in this dynamic field.
                     </p>
                 </div>
             </div>
@@ -122,9 +123,9 @@
                     <a href="https://www.linkedin.com/company/biyashara-innovation-limited/posts/?feedView=all" target="_blank">
                         <h2><small>(02/2024 - 11/2024)</small> Biyashara Innovations Limited <i class='bx bx-link-external'></i></h2>
                     </a>
-                    <p>A company specialised in in crafting tailored solutions that precisely align with the client's unique needs and
-                        objectives. I was able to put the skills I have learned in real life scenarios and projects, further sharpening
-                        my problem-solving and personal software development skills.</p>
+                    <p>This organization is dedicated to crafting tailored solutions that align perfectly with the specific needs and goals
+                        of its clients. My tenure at this company afforded me the valuable experience of applying my learned skills to
+                        practical projects, consequently refining my problem-solving and personal software development proficiencies.</p>
                 </div>
             </div>
 
@@ -136,9 +137,9 @@
                     <a href="https://northrise.edu.zm" target="_blank">
                         <h2><small>(02/2020 - 11/2023)</small> Northrise University <i class='bx bx-link-external'></i></h2>
                     </a>
-                    <p>Pursued a Bachelor of Information Technology in Web and Software Development (BIT(WSD)). This institution
-                        gave me the opportunity to hone and sharpen my skills in web technologies and push myself to put the skills
-                        I learned into practice.
+                    <p>I hold a Bachelor of Information Technology in Web and Software Development. This degree program provided me with the
+                         opportunity to develop and enhance my skills in web technologies through a combination of theoretical learning and
+                         practical application.
                     </p>
                 </div>
             </div>
